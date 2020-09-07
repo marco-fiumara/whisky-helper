@@ -13,10 +13,10 @@ def main():
         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
     }
 
+    # NOTE Use this if there is no whiskys_output.json file
     # urls: List[str] = ["https://www.masterofmalt.com/age/10-year-old-whisky",
     #                    "https://www.masterofmalt.com/age/12-year-old-whisky", "https://www.masterofmalt.com/age/18-year-old-whisky", "https://www.masterofmalt.com/age/21-year-old-whisky"]
 
-    # NOTE Use this if there is no whiskys_output.json file
     # whisky_links: Dict[str, str] = get_all_whiskys(urls, headers)
 
     # NOTE Use this if already written result of GetAllwhiskys() to the whiskys_output.json file
